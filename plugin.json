@@ -1,0 +1,30 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "thinkreview",
+  "displayName": "ThinkReview",
+  "version": "1.0.0",
+  "description": "Review a GitHub, GitLab, Azure DevOps, or Bitbucket pull request. ThinkReview fetches the diff and returns a structured review.",
+  "author": {
+    "name": "Thinkode",
+    "url": "https://thinkreview.dev"
+  },
+  "homepage": "https://thinkreview.dev/features/mcp",
+  "repository": "https://github.com/Thinkode/thinkreview-antigravity",
+  "license": "MIT",
+  "keywords": [
+    "thinkreview",
+    "code-review",
+    "pull-request",
+    "mcp",
+    "github",
+    "gitlab",
+    "azure-devops",
+    "bitbucket"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "suggestedPrompts": [
+    "Review https://github.com/org/repo/pull/42"
+  ]
+}
